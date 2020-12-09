@@ -6,7 +6,7 @@
         videojs('topddl_player', setup )
         
         videojs('topddl_player').videoLogo({
-          watermark: "https://1.bp.blogspot.com/-VMufSaIrJKI/Xl_jxaFZI9I/AAAAAAAACKE/CrZsvj1afzQ4iKfnWWQnNUtR5ibfyAweACLcBGAsYHQ/s640/20200301_054610-min.png",
+          watermark: "Distriknime",
         })
         
         
