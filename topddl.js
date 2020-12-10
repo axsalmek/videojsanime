@@ -5,7 +5,9 @@
         
         videojs('topddl_player', setup )
         
-        
+        videojs('topddl_player').videoLogo({
+          watermark: "Distriknime",
+        })
         
         
         videojs('topddl_player').videoJsResolutionSwitcher();
