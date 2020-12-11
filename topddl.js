@@ -17,12 +17,6 @@
           enableModifiersForNumbers: false,
           alwaysCaptureHotkeys: true
         });
-        videojs('topddl_player').on('error', function(err) {
-          var current_time = videojs('topddl_player').currentTime();
-          
-          window.location = window.location.href.replace(/\&autoplay\=true\&time\=\d+\&retry\=\d+/g, '') + '&autoplay=true&time=' + current_time + '&retry=1';
-          // console.log(err);
-        })
         
           videojs('topddl_player').ima({
             id: 'topddl_player',
