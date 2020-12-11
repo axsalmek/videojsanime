@@ -5,4 +5,16 @@
  * Modified by Tan Vu
  * @version 1.0.0 support videojs-5*/
 
-.vjs-watermark{position:absolute;display:inline;z-index:2000;top:10px;right:10px}.vjs-watermark-text{color:#fff;font-size:30px;font-weight:700;opacity:.5}.vjs-watermark{transition:visibility .1s ease 0s,opacity .1s ease 0s;visibility:visible}.vjs-logobrand{opacity:.5}.vjs-logobrand:hover{opacity:1}.vjs-user-inactive .vjs-watermark{visibility:hidden}.vjs-user-inactive.vjs-paused .vjs-watermark{visibility:visible}.vjs-ad-playing a.vjs-logobrand-destination{display:none}
+.vjs-watermark1{position:absolute;display:inline;z-index:2000;top:10px;right:10px}.vjs-watermark1-text{color:#fff;font-size:30px;font-weight:700;opacity:.5}.vjs-watermark1{transition:visibility .1s ease 0s,opacity .1s ease 0s;visibility:visible}.vjs-logobrand1{opacity:.5}.vjs-logobrand:hover1{opacity:1}.vjs-user-inactive .vjs-watermark1{visibility:hidden}.vjs-user-inactive1.vjs-paused1 .vjs-watermark1{visibility:visible}.vjs-ad-playing1 a.vjs-logobrand-destination1{display:none}
+
+.vjs-watermark{
+position: absolute;
+top: 5px;
+left: 5px;
+z-index: 10;
+content: &#39;&#39;;
+height: 30px;
+width: 100px;
+background: url(&#39;https://1.bp.blogspot.com/-VMufSaIrJKI/Xl_jxaFZI9I/AAAAAAAACKE/CrZsvj1afzQ4iKfnWWQnNUtR5ibfyAweACLcBGAsYHQ/s640/20200301_054610-min.png&#39;) no-repeat;
+background-size: 90px auto, auto;
+}
